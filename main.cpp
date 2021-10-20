@@ -38,6 +38,15 @@ int main() {
     std::cout << "It was then followed by a minor revision in " << minor_revision_date << "\n";
     std::cout << "Other dates which introduced major features/enhancements were " << major_revision_date << " and " << major_revision_date_two << "\n";
 
+    std::cout << "Where is C++ used?" << "\n";
+
+    std::string use_cases[4] = {"High-performance software", "A.I. applications", "Games", "Operating System Development"};
+
+    for (const auto &item : use_cases) {
+        std::cout << "- " << item << "\n";
+    }
+    std::cout << "And this is just only some of the industries C++ is used in!" << "\n";
+
     std::flush(std::cout);
 
     return 0;
