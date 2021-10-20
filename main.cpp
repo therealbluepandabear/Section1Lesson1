@@ -47,7 +47,12 @@ int main() {
     }
     std::cout << "And this is just only some of the industries C++ is used in!" << "\n";
 
-    std::flush(std::cout);
+    std::cout << "C++ is used for performance, stability, and portability. It is available on almost all operating systems." << "\n";
+    std::cout << "C++ also has a smaller memory footprint when compared to many other languages." << "\n";
 
+    std::cout << "Another great thing about C++ is that it can run in constrained environments with limited memory and/or a slow CPU." << "\n";
+    std::cout << "Standard C++ code can be easily ported to multiple platforms." << "\n";
+
+    std::flush(std::cout);
     return 0;
 }
