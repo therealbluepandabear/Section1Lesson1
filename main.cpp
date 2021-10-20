@@ -28,6 +28,15 @@ int main() {
 
     std::cout << "These companies come together and propose new standard which are decided in a vote." << "\n";
 
+    const int first_standard_date = 1998;
+    const int minor_revision_date = 2003;
+    const int major_revision_date = 2011;
+    const int major_revision_date_two = 2014;
+
+    std::cout << "You may be asking when the first C++ standard was published, well that was in " << first_standard_date << "\n";
+
+    std::cout << "It was then followed by a minor revision in " << minor_revision_date << "\n";
+    std::cout << "Other dates which introduced major features/enhancements were " << major_revision_date << " and " << major_revision_date_two << "\n";
 
     std::flush(std::cout);
 
