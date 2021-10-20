@@ -14,5 +14,22 @@ int main() {
         std::cout << "- " << item << "\n";
     }
 
+    const std::string name = "ISO Standard Committee";
+
+    std::cout << "The " << name << "is responsible for adding new features to C++" << "\n";
+
+    std::cout << "The " << name << " has representatives in respective companies, such as:" << "\n";
+
+    std::string companies[3] = { "Microsoft", "Google", "IBM" };
+
+    for (const auto &item : companies) {
+        std::cout << "- " << item << "\n";
+    }
+
+    std::cout << "These companies come together and propose new standard which are decided in a vote." << "\n";
+
+
+    std::flush(std::cout);
+
     return 0;
 }
